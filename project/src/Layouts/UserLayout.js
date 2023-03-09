@@ -7,7 +7,11 @@ const UserLayout = () => {
   return (
     <>
     <Header/>
-    <Outlet/>
+
+    <div className="containe" style={{minHeight : '500px', backgroundColor : "#000"}}>
+    <Outlet />
+    </div>
+    
     <Footer/>
     </>
   )

@@ -1,5 +1,5 @@
 import React from 'react'
-import {Routes, Route} from 'react-router-dom'
+import { Routes , Route } from 'react-router-dom'
 import AdminLayout from './Layouts/AdminLayout'
 import Dashboard from './Admin/Pages/Dashboard'
 import StudentLayout from './Layouts/StudentLayout'
@@ -12,19 +12,19 @@ const AllRoutes = () => {
     
     <>
         <Routes>
-            <Route>
-                <Route path='' element={<UserLayout/>}/>
+            
+            <Route path='' element={<UserLayout/>}>
                 <Route path="" element={<Home/>}/>
             </Route>
 
-             <Route>
-                 <Route path='student' element={<StudentLayout/>}/>
+            
+            <Route path='student' element={<StudentLayout/>}>
                  <Route path="" element={<SHome/>}/>
                  
-             </Route>
+            </Route>
 
-            <Route>
-                <Route path='admin' element={<AdminLayout/>}/>
+            
+            <Route path='admin' element={<AdminLayout/>}>
                 <Route path="" element={<Dashboard/>}/>
             </Route>
         </Routes>
