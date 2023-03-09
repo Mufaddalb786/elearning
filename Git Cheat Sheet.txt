@@ -1,0 +1,36 @@
+git commands--
+
+1)git init : This makes a empty git folder which is hidden folder.
+
+2)git status : This command shows tracked and untracked status which are ready to commit.
+
+3)git add : This command add untracked files to staging area for the process of commit.
+
+4)git commit : This command commits tracked file which are in staging area.(git commit -am "<message>".
+
+5)git checkout : This command modifies the current files to previous files.(changes the version of same files).
+*git checkout -f for all files.
+
+6)git log : This command shows the history of commits done by author.
+git log -p -<how many last commits you want to know>
+
+7)git diff : This commands show diffrence between current version of file which is just modified vs previous version of file which is in staging area.
+*git diff --staged(this shows difference between previous version and current version).
+
+8)git rm --cached <file name> : This command remove file from staging area 
+*Only git rm <file name> removes from hard disk also.
+
+9)git status -s : This command shows files in short reference.
+
+Git branches:-
+
+10)git branch <branch name> : This commands create new branch on repo.
+* git branch : This command shows all branch name.
+
+11)git checkout <branch name> : This command switches inter-branches.
+
+12)git merge <branch name that should be merge> : This command merges 2 branch files into current branch.
+
+13)git branch -b <new branch name> : This commands create new branch also switches it.
+
+14)
