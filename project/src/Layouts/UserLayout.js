@@ -8,7 +8,7 @@ const UserLayout = () => {
     <>
     <Header/>
 
-    <div className="containe" style={{minHeight : '500px', backgroundColor : "#000"}}>
+    <div className="containe" style={{minHeight : '500px'}}>
     <Outlet />
     </div>
     

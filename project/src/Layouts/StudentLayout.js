@@ -7,7 +7,6 @@ const StudentLayout = () => {
   return (
     <>
     <Header/>
-    student
     <Outlet/>
     <Footer/>
     </>
